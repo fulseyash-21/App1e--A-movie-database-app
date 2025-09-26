@@ -4,34 +4,34 @@ App1e is a sleek and responsive iOS application built with Swift and UIKit for b
 ✨ Features
 Dynamic Home Feed: Browse through curated sections like Trending Movies, Popular TV Shows, Upcoming Releases, and Top Rated content.
 
-Instant Search: Find any movie with a real-time search that uses debouncing to optimize network requests.
+- Instant Search: Find any movie with a real-time search that uses debouncing to optimize network requests.
 
-Detailed Previews: Get more information about a movie or TV show, including an overview and an embedded YouTube trailer.
+- Detailed Previews: Get more information about a movie or TV show, including an overview and an embedded YouTube trailer.
 
-Personal Watchlist: Save your favorite movies to a "My List" for easy access, with data persisted locally using UserDefaults.
+- Personal Watchlist: Save your favorite movies to a "My List" for easy access, with data persisted locally using UserDefaults.
 
-Customizable Profile: Personalize your experience by choosing from a collection of avatars in a clean, modern profile screen.
+- Customizable Profile: Personalize your experience by choosing from a collection of avatars in a clean, modern profile screen.
 
-Adaptive UI: A fully programmatic and responsive user interface that looks great on all devices in both portrait and landscape modes.
+- Adaptive UI: A fully programmatic and responsive user interface that looks great on all devices in both portrait and landscape modes.
 
-User Notifications: Receive local notifications when an item is added to your list.
+- User Notifications: Receive local notifications when an item is added to your list.
 
-Reusable Settings Component: A generic and reusable bottom sheet component for handling all user settings, demonstrating clean and scalable code architecture.
+- Reusable Settings Component: A generic and reusable bottom sheet component for handling all user settings, demonstrating clean and scalable code architecture.
 
 🛠️ Technologies & Architecture
-UI: 100% Programmatic UI with UIKit and Auto Layout (No Storyboards).
+- UI: 100% Programmatic UI with UIKit and Auto Layout (No Storyboards).
 
-Architecture: Model-View-ViewModel (MVVM) to ensure a clean separation of concerns.
+- Architecture: Model-View-ViewModel (MVVM) to ensure a clean separation of concerns.
 
-Networking: Native URLSession for all API requests to TMDB and the YouTube Data API.
+- Networking: Native URLSession for all API requests to TMDB and the YouTube Data API.
 
-Concurrency: Asynchronous data fetching with completion handlers.
+- Concurrency: Asynchronous data fetching with completion handlers.
 
-Image Caching: SDWebImage for efficient and asynchronous image loading and caching.
+- Image Caching: SDWebImage for efficient and asynchronous image loading and caching.
 
-Persistence: UserDefaults for storing the user's watchlist and profile preferences.
+- Persistence: UserDefaults for storing the user's watchlist and profile preferences.
 
-Frameworks: WebKit for embedding YouTube trailers, UserNotifications for local alerts.
+- Frameworks: WebKit for embedding YouTube trailers, UserNotifications for local alerts.
 
 🚀 Setup and Installation
 To run this project on your own device or simulator:
@@ -61,18 +61,18 @@ Open the .xcodeproj file and run the project on your desired simulator or physic
 📂 Project Structure
 The project is organized into logical groups to maintain a clean and scalable codebase:
 
-Controllers: Contains all the UIViewController subclasses, separated into Core (for the main tab bar) and General (for reusable or secondary screens).
+- Controllers: Contains all the UIViewController subclasses, separated into Core (for the main tab bar) and General (for reusable or secondary screens).
 
-Views: Includes all custom UIView and UITableViewCell/UICollectionViewCell subclasses.
+- Views: Includes all custom UIView and UITableViewCell/UICollectionViewCell subclasses.
 
-Models: Holds the data structures that model the API responses (e.g., Movie, TVShow).
+- Models: Holds the data structures that model the API responses (e.g., Movie, TVShow).
 
-ViewModels: Contains the ViewModels used to format model data for display in the views.
+- ViewModels: Contains the ViewModels used to format model data for display in the views.
 
-Services: Includes the NetworkManager responsible for all API interactions.
+- Services: Includes the NetworkManager responsible for all API interactions.
 
-Presenters: Manages the presentation logic for complex views like the movie preview drawer.
+- Presenters: Manages the presentation logic for complex views like the movie preview drawer.
 
-Extensions: Contains helpful extensions on Swift and UIKit classes.
+- Extensions: Contains helpful extensions on Swift and UIKit classes.
 
-This project was developed by Your Name.
+This project was developed by Yash Fulse.
