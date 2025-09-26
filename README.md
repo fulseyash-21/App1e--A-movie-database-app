@@ -78,6 +78,4 @@ Presenters: Manages the presentation logic for complex views like the movie prev
 Extensions: Contains helpful extensions on Swift and UIKit classes.
 
 This project was developed by 
-
-YourName
-.
+Yash Fulse
