@@ -1,5 +1,5 @@
 App1e - A Modern Movie & TV Show Discovery App for iOS
-laApp1e is a sleek and responsive iOS application built with Swift and UIKit for browsing, searching, and discovering movies and TV shows. It leverages The Movie Database (TMDB) API to provide up-to-date information on trending, popular, and upcoming titles. The entire UI is built programmatically, showcasing a strong understanding of Auto Layout and adaptive layouts for both portrait andndscape orientations.
+App1e is a sleek and responsive iOS application built with Swift and UIKit for browsing, searching, and discovering movies and TV shows. It leverages The Movie Database (TMDB) API to provide up-to-date information on trending, popular, and upcoming titles. The entire UI is built programmatically, showcasing a strong understanding of Auto Layout and adaptive layouts for both portrait and landscape orientations.
 
 ✨ Features
 Dynamic Home Feed: Browse through curated sections like Trending Movies, Popular TV Shows, Upcoming Releases, and Top Rated content.
@@ -37,24 +37,22 @@ Frameworks: WebKit for embedding YouTube trailers, UserNotifications for local a
 To run this project on your own device or simulator:
 
 Clone the repository:
-
+```
 git clone [Your-Repository-URL]
-
-
+```
 Create Secrets.swift file:
 Inside the App1e/ directory, create a new file named Secrets.swift.
 
 Add Your API Keys:
 Paste the following code into Secrets.swift and add your unique API keys from TMDB and the Google Cloud Console.
-
+```
 import Foundation
 
 struct Secrets {
     static let tmdbApiKey = "YOUR_TMDB_API_KEY"
     static let youtubeDataApiKey = "YOUR_YOUTUBE_DATA_API_KEY"
 }
-
-
+```
 Note: The Secrets.swift file is included in the .gitignore to prevent API keys from being exposed.
 
 Open in Xcode and Run:
@@ -77,5 +75,4 @@ Presenters: Manages the presentation logic for complex views like the movie prev
 
 Extensions: Contains helpful extensions on Swift and UIKit classes.
 
-This project was developed by 
-Yash Fulse
+This project was developed by Your Name.
