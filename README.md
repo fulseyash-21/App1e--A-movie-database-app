@@ -1,6 +1,10 @@
 App1e - A Modern Movie & TV Show Discovery App for iOS
 App1e is a sleek and responsive iOS application built with Swift and UIKit for browsing, searching, and discovering movies and TV shows. It leverages The Movie Database (TMDB) API to provide up-to-date information on trending, popular, and upcoming titles. The entire UI is built programmatically, showcasing a strong understanding of Auto Layout and adaptive layouts for both portrait and landscape orientations.
 
+
+
+<img width="391" height="851" alt="App1e Home page" src="https://github.com/user-attachments/assets/5731915c-b9ab-4e90-a80b-bcad99cfc487" />
+
 ✨ Features
 Dynamic Home Feed: Browse through curated sections like Trending Movies, Popular TV Shows, Upcoming Releases, and Top Rated content.
 
